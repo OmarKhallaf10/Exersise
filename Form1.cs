@@ -16,5 +16,29 @@ namespace Exersise
         {
             InitializeComponent();
         }
+
+        private void rbBoy_CheckedChanged(object sender, EventArgs e)
+        {
+            pb.Image = Image.FromFile(@"G:\Boy.png");
+            lblTitle.Text = "Boy";
+        }
+
+        private void rbGirl_CheckedChanged(object sender, EventArgs e)
+        {
+            pb.Image = Image.FromFile(@"G:\Girl.png");
+            lblTitle.Text = "Girl";
+        }
+
+        private void rbBook_CheckedChanged(object sender, EventArgs e)
+        {
+            pb.Image = Image.FromFile(@"G:\Book.png");
+            lblTitle.Text = "Book";
+        }
+
+        private void rbPen_CheckedChanged(object sender, EventArgs e)
+        {
+            pb.Image = Image.FromFile(@"G:\Pen.png");
+            lblTitle.Text = "Pen";
+        }
     }
 }
