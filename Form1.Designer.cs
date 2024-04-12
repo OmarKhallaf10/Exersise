@@ -42,7 +42,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTitle.Location = new System.Drawing.Point(377, 72);
+            this.lblTitle.Location = new System.Drawing.Point(377, 34);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(87, 39);
             this.lblTitle.TabIndex = 0;
@@ -50,9 +50,9 @@
             // 
             // pb
             // 
-            this.pb.Location = new System.Drawing.Point(302, 147);
+            this.pb.Location = new System.Drawing.Point(191, 76);
             this.pb.Name = "pb";
-            this.pb.Size = new System.Drawing.Size(227, 167);
+            this.pb.Size = new System.Drawing.Size(455, 294);
             this.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb.TabIndex = 1;
             this.pb.TabStop = false;
@@ -60,47 +60,51 @@
             // rbBoy
             // 
             this.rbBoy.AutoSize = true;
-            this.rbBoy.Location = new System.Drawing.Point(218, 409);
+            this.rbBoy.Location = new System.Drawing.Point(240, 409);
             this.rbBoy.Name = "rbBoy";
-            this.rbBoy.Size = new System.Drawing.Size(51, 20);
+            this.rbBoy.Size = new System.Drawing.Size(52, 20);
             this.rbBoy.TabIndex = 2;
             this.rbBoy.TabStop = true;
-            this.rbBoy.Text = "boy";
+            this.rbBoy.Tag = "Boy";
+            this.rbBoy.Text = "Boy";
             this.rbBoy.UseVisualStyleBackColor = true;
             this.rbBoy.CheckedChanged += new System.EventHandler(this.rbBoy_CheckedChanged);
             // 
             // rbGirl
             // 
             this.rbGirl.AutoSize = true;
-            this.rbGirl.Location = new System.Drawing.Point(346, 409);
+            this.rbGirl.Location = new System.Drawing.Point(338, 409);
             this.rbGirl.Name = "rbGirl";
-            this.rbGirl.Size = new System.Drawing.Size(46, 20);
+            this.rbGirl.Size = new System.Drawing.Size(48, 20);
             this.rbGirl.TabIndex = 3;
             this.rbGirl.TabStop = true;
-            this.rbGirl.Text = "girl";
+            this.rbGirl.Tag = "Girl";
+            this.rbGirl.Text = "Girl";
             this.rbGirl.UseVisualStyleBackColor = true;
             this.rbGirl.CheckedChanged += new System.EventHandler(this.rbGirl_CheckedChanged);
             // 
             // rbBook
             // 
             this.rbBook.AutoSize = true;
-            this.rbBook.Location = new System.Drawing.Point(474, 409);
+            this.rbBook.Location = new System.Drawing.Point(422, 409);
             this.rbBook.Name = "rbBook";
-            this.rbBook.Size = new System.Drawing.Size(59, 20);
+            this.rbBook.Size = new System.Drawing.Size(60, 20);
             this.rbBook.TabIndex = 4;
             this.rbBook.TabStop = true;
-            this.rbBook.Text = "book";
+            this.rbBook.Tag = "Book";
+            this.rbBook.Text = "Book";
             this.rbBook.UseVisualStyleBackColor = true;
             this.rbBook.CheckedChanged += new System.EventHandler(this.rbBook_CheckedChanged);
             // 
             // rbPen
             // 
             this.rbPen.AutoSize = true;
-            this.rbPen.Location = new System.Drawing.Point(611, 409);
+            this.rbPen.Location = new System.Drawing.Point(517, 409);
             this.rbPen.Name = "rbPen";
             this.rbPen.Size = new System.Drawing.Size(52, 20);
             this.rbPen.TabIndex = 5;
             this.rbPen.TabStop = true;
+            this.rbPen.Tag = "Pen";
             this.rbPen.Text = "Pen";
             this.rbPen.UseVisualStyleBackColor = true;
             this.rbPen.CheckedChanged += new System.EventHandler(this.rbPen_CheckedChanged);
